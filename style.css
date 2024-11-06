@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font for a modern look */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffeef8; /* Light pink background */
+}
+
+.login-container {
+    background-color: white;
+    padding: 40px; /* Increased padding for a spacious look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    border-radius: 12px; /* Slightly larger border radius */
+    width: 350px; /* Increased width for a modern feel */
+    text-align: center; /* Center text inside the container */
+    margin-left: 100px;
+}
+
+h2 {
+    color: #d5006d; /* Darker pink for heading */
+    margin-bottom: 20px; /* Added margin for spacing */
+    font-size: 24px; /* Increased font size */
+}
+
+input {
+    width: 100%;
+    padding: 12px; /* Increased padding for comfort */
+    margin: 10px 0;
+    border-radius: 6px; /* Slightly larger border radius */
+    border: 1px solid #ff80ab; /* Pink border for input fields */
+    transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+input:focus {
+    border-color: #d5006d; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Increased padding for comfort */
+    background-color: #d5006d; /* Dark pink for button */
+    color: white;
+    border: none;
+    border-radius: 6px; /* Slightly larger border radius */
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #c51162; /* Darker pink on hover */
+}
+
+.image-section {
+    margin-left: 40px;
+}
+
+.image {
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    padding: 40px; /* Increased padding for a spacious look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+    border-radius: 20px; /* Slightly larger border radius */
+}
